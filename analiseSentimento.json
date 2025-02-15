@@ -1,0 +1,59 @@
+{
+  "data": {
+    "kind": "SentimentAnalysisResults",
+    "results": {
+      "documents": [
+        {
+          "id": "1",
+          "sentiment": "mixed",
+          "confidenceScores": {
+            "positive": 0.49,
+            "neutral": 0,
+            "negative": 0.51
+          },
+          "sentences": [
+            {
+              "sentiment": "negative",
+              "confidenceScores": {
+                "positive": 0,
+                "neutral": 0,
+                "negative": 1
+              },
+              "offset": 0,
+              "length": 403,
+              "text": "Comprei o nobreak Ragtech de 1200 VA na Kalunga há 1 mes e, desde que instalei no meu PC, o computador fica se desligando as vezes e após perceber isso fiz alguns testes e vi que a bateria não está carregando, o aparelho não está protegenda nada o meu pc, inclusive fiz o que se falava no manual sobre a carga de 12-24h, porém o produto simplesmente não funciona para o que ele foi comprado para fazer. "
+            },
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 0.98,
+                "neutral": 0,
+                "negative": 0.02
+              },
+              "offset": 403,
+              "length": 139,
+              "text": "Preciso de atendimento urgente pois trabalho com o computador e quero ou outro produto funcionando perfeitamente ou meu dinheiro de volta. "
+            },
+            {
+              "sentiment": "neutral",
+              "confidenceScores": {
+                "positive": 0.05,
+                "neutral": 0.94,
+                "negative": 0.01
+              },
+              "offset": 542,
+              "length": 16,
+              "text": "Fico no aguardo."
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "errors": [],
+      "modelVersion": "2025-01-01"
+    }
+  },
+  "headers": {},
+  "status": 200,
+  "statusText": ""
+}
