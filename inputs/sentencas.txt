@@ -1,0 +1,4 @@
+Tradução
+transformar texto em audio
+transformar audio em texto
+análise de sentimento
